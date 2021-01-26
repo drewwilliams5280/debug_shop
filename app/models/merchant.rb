@@ -1,4 +1,3 @@
-class Merchant <ApplicationRecord
-  have_many :items
-
+class Merchant < ApplicationRecord
+  has_many :items
 end
